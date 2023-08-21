@@ -1,0 +1,17 @@
+# Jekyll should be loading my navigation not the one inside 
+# theme minimal-mistakes-jekyll's _data dir
+main:
+  - title: OVERVIEW
+    url: "/"
+  - title: DOCS
+    url: "/reference/"
+  - title: INSTALL
+    url: "/"
+  - title: DOWNLOADS
+    url: "/"
+  - title: PAPERS
+    url: "/"
+  - title: ABOUT
+    url: "/"
+  - title: GITHUB
+    url: "/"

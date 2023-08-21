@@ -1,0 +1,128 @@
+/* This style of table tries to mimic the Algorithm style of Latex
+ * when I'm creating its online companion
+ * I tried to use table, but the presentation not ideal, so switch to div
+ */
+
+/*
+.algorithm tr td{
+	border: none;
+}
+
+.algorithm>thead {
+	border-top: 2px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.algorithm td {
+	padding-left: 10px;
+}
+
+.aolgorithm>tfoot {
+	border-top: 1px solid #333;
+}
+*/
+
+figure {
+	border: thin #c0c0c0 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+	margin: 0 auto;		/* somehow this attr is ignored by markdown generated html */
+						/* I have to manually set it on figure elem using in-place style attr */
+						/* same goes for table elem */
+}
+
+figcaption {
+	text-align: center;
+	background-color: #dcdcdc;
+}
+
+tbody tr td {
+	text-align: center;
+}
+
+tbody tr td:first-child {
+	text-align: left;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+/* span element that mimics behavior of a tab */
+.tab {
+	margin-left: 2em;
+}
+
+/* hr element in the algorithm div */
+.algorithm hr {
+	border: none;
+	border-top: 1px solid #333;
+}
+
+/* but first and last hr is a little special */
+.algorithm hr:first-child {
+	border: none;
+	border-top: 2px solid #333;
+}
+
+.algorithm hr:last-child {
+	margin-top: -10px;
+}
+
+.algorithm p {
+	margin-top: -20px;
+}
+
+/* first p in algorithm should be its name, which is the second element in the div */
+.algorithm>p:nth-child(2) {
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+/*
+.algorithm span {
+	margin-left: 70px;
+}
+*/
+
+/* left-right split of algorithm 2 */
+.alg_grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.alg_l {
+	grid-column: 1;
+}
+
+.alg_r {
+	grid-column: 2;
+}
+
+/* class for the label after equation */
+.eqn_label {
+	position: absolute;
+	right: 10px;
+	padding-top: 20px;
+}
+
+/* sticky button */
+#b_top {
+	display: none;
+	position: sticky;
+	bottom: 40px;
+	left: 1250px;
+	z-index: 99;	/* make sure it does not overlap */
+	border-radius: 10px;
+}
+
+/* docsify logo css */
+.app-name-link > img {
+	width: 60px;
+}
