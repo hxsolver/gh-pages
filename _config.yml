@@ -30,6 +30,7 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Theme related
 # theme: minimal-mistakes-jekyll # this theme gh-pages does not support defaultly
