@@ -45,4 +45,4 @@ gem "webrick", "~> 1.7"
 
 # yz added gems
 # when push to git repo , comment next line
-gem "minimal-mistakes-jekyll", "~> 4.24.0"
+# gem "minimal-mistakes-jekyll", "~> 4.24.0"
