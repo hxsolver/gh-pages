@@ -32,7 +32,13 @@ plugins:
   - jekyll-feed
 
 # Theme related
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll # this theme gh-pages does not support defaultly
+# According to 
+# "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll"
+# I have to use "remote_theme" option
+# the theme specific version will be found in README.md of the theme
+# and I can remove the gem line in the Gemfile.
+remote_theme: mmistakes/minimal-mistakes@4.24.0  
 minimal_mistakes_skin: "default"
 search: true
 
