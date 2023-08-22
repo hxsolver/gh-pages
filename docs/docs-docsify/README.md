@@ -92,7 +92,7 @@ associated communication in the background. A schematic diagram of the new
 functionality is shown in [Figure 1-1](#fig11).
 
 <figure style="max-width: 350px; margin: 0 auto;">
-  <img id="fig11" src="/docs/docs-docsify/images/newfunc.png" width="350" height="300" alt="xsolver impression"/>
+  <img id="fig11" src="/gh-pages/docs/docs-docsify/images/newfunc.png" width="350" height="300" alt="xsolver impression"/>
   <figcaption>
     Figure 1-1 X-Solver support for interprocessor communication on a cluster 
   </figcaption>
@@ -121,7 +121,7 @@ allows an easy combination of various solvers and preconditioners.
 The optimal choice can be effectively determined. 
  
 <figure style="max-width: 600px; margin: 0 auto;">
-  <img id="fig12" src="/docs/docs-docsify/images/xsolverv2-impression.png" width="600" height="400" alt="xsolver impression"/>
+  <img id="fig12" src="/gh-pages/docs/docs-docsify/images/xsolverv2-impression.png" width="600" height="400" alt="xsolver impression"/>
   <figcaption>
     Figure 1-2 An illustration of solving linear system with X-Solver
   </figcaption>
@@ -142,7 +142,7 @@ different modules, which yields the layered architecture of X-Solver,
 as shown in [Figure 2-1](#fig21)</a>.
 
 <figure style="max-width: 600px; margin: 0 auto;">
-  <img id="fig21" src="/docs/docs-docsify/images/xsolver-abstraction.png" width="600" height="600" alt="xsolver abstraction"/>
+  <img id="fig21" src="/gh-pages/docs/docs-docsify/images/xsolver-abstraction.png" width="600" height="600" alt="xsolver abstraction"/>
   <figcaption>
     Figure 2-1 Schematic overview of X-Solver's architecture
   </figcaption>
@@ -1770,7 +1770,7 @@ and forth between the hosts (CPUs) and devices (GPUs).
 _The sparse storage formats supported by X-Solver should be addressed here._
 
 <figure style="max-width: 800px; margin: 0 auto;">
-  <img id="fig22" src="/docs/docs-docsify/images/spmv_overlap.png" width="800" height="380" alt="SpMV implementation" />
+  <img id="fig22" src="/gh-pages/docs/docs-docsify/images/spmv_overlap.png" width="800" height="380" alt="SpMV implementation" />
   <figcaption>
     Figure 2-2 Schematic representation of the pipelined SpMV implementation
   </figcaption>
@@ -1816,11 +1816,11 @@ elements in the distributed matrix and vector.
 
 <div id="fig23" style="display: flex; flex-direction: row; flex-basis: auto; flex-grow: 1; margin-left: 30px;">
   <figure style="max-width: 500px; border: none;">
-    <img src="/docs/docs-docsify/images/decomposition.png" width="450" height="200" alt="decomposion" />
+    <img src="/gh-pages/docs/docs-docsify/images/decomposition.png" width="450" height="200" alt="decomposion" />
 	<figcaption style="background: none;">(a) Compute meshes</figcaption>
   </figure>
   <figure style="max-width: 300px; border: none;">
-    <img src="/docs/docs-docsify/images/decomposition2.png" width="250" height="200" alt="decomposion2" />
+    <img src="/gh-pages/docs/docs-docsify/images/decomposition2.png" width="250" height="200" alt="decomposion2" />
 	<figcaption style="background: none;">(b) Distributed matrix and vector</figcaption>
   </figure>
 </div>
@@ -1905,7 +1905,7 @@ from the neighbors are numbered by
 of Neighbor-to-Neighbor data exchange by utilizing the send-and-receive MPI routines. 
 
 <figure style="max-width: 800px; margin: 0 auto;">
-  <img id="fig24" src="/docs/docs-docsify/images/P2PMPI.png" width="750" height="450" alt="P2PMPI" />
+  <img id="fig24" src="/gh-pages/docs/docs-docsify/images/P2PMPI.png" width="750" height="450" alt="P2PMPI" />
   <figcaption>
     Figure 2-4 An illustration of the communicator arguments. Four subdomains 
 	are mapped to the respective MPI processes and arrows represent data 
@@ -2869,7 +2869,7 @@ demonstrates the good performance portability of the optimized parILUT algorithm
 </table>
 
 <figure style="max-width: 800; margin-top: 30px;">
-  <img id="fig31" src="/docs/docs-docsify/images/parILUT-breakdown.png" width="750" height="350" alt="parILUT" />
+  <img id="fig31" src="/gh-pages/docs/docs-docsify/images/parILUT-breakdown.png" width="750" height="350" alt="parILUT" />
   <figcaption>
 	Figure 3-1 Relative runtime of the building blocks in the parILUT 
 	algorithm. Two bars for each problem correspond to the breakdown 
