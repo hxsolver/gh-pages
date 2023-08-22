@@ -6,7 +6,7 @@ layout: default
 permalink: /
 ---
 
-<div class="page__hero--overlay" style="background-color: #5e616c; background-image: url('/resources/images/homepage.jpeg')">
+<div class="page__hero--overlay" style="background-color: #5e616c; background-image: url('/gh-pages/resources/images/homepage.jpeg')">
 <!-- need add inline stype to above div to add background color and image -->
   <div class="wrapper">
     <h1 class="page__title" itemprop="headline">X-Solver</h1>
