@@ -22,8 +22,6 @@ gem "jekyll-include-cache", "~> 0.1", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-avatar"
-  gem "jekyll-octicons"
-
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -48,4 +46,4 @@ gem "webrick", "~> 1.7"
 
 # yz added gems
 # when push to git repo , comment next line
-# gem "minimal-mistakes-jekyll", "~> 4.24.0"
+gem "minimal-mistakes-jekyll", "~> 4.24.0"
